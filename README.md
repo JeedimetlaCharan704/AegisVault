@@ -1,6 +1,14 @@
 # 🛡️ AegisVault (SentinEL-4626)
 ### *Autonomous Threat-Sentinel & Dynamic Rebalancing Engine for Tokenized ERC-4626 Vaults with On-Chain Invariant Guardrails*
 
+[![Live Demo on Vercel](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://aegis-vault-blush.vercel.app)
+[![Base Sepolia](https://img.shields.io/badge/Network-Base%20Sepolia%20(84532)-0052FF?style=for-the-badge&logo=coinbase)](https://sepolia.basescan.org)
+[![Solidity ERC-4626](https://img.shields.io/badge/Standard-ERC--4626-363636?style=for-the-badge&logo=solidity)](https://eips.ethereum.org/EIPS/eip-4626)
+[![Python Co-Processor](https://img.shields.io/badge/Agent%20Engine-FastAPI%20%7C%20Web3.py-3776AB?style=for-the-badge&logo=python)](https://fastapi.tiangolo.com)
+
+👉 **Live Production Dashboard:** **[https://aegis-vault-blush.vercel.app](https://aegis-vault-blush.vercel.app)**  
+*(Alternative URL: [https://aegis-vault-3dwsbr51w-jeedimetla-charan.vercel.app](https://aegis-vault-3dwsbr51w-jeedimetla-charan.vercel.app))*
+
 ---
 
 ## 🌟 Executive Summary
