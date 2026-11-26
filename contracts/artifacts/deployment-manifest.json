@@ -1,0 +1,48 @@
+{
+  "network": "Base Sepolia",
+  "chainId": 84532,
+  "rpcUrl": "https://sepolia.base.org",
+  "deployedAt": "2026-11-25T07:45:51Z",
+  "deployer": "0x1a099FF069aDF6c45efBFc72FB0967A01FB3a026",
+  "agentSigner": "0x2A6261d5e6ce20456aad4Bdf59a30C9CD243f260",
+  "contracts": {
+    "AegisVault": "0x89209581A7bF892c23F1E7b4C198F908381243e7",
+    "InvariantGuard": "0x7B114389e8B7E5830AcF65d098e9a2632bEb94a2",
+    "MockUSDC": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "Strategies": [
+      {
+        "id": "aave-v3",
+        "name": "Aave V3 Lending Market",
+        "protocol": "Aave",
+        "address": "0x1234567890123456789012345678901234567890",
+        "targetWeightBps": 3500,
+        "apy": 8.45,
+        "whitelisted": true
+      },
+      {
+        "id": "morpho-blue",
+        "name": "Morpho Blue Curated Vault",
+        "protocol": "Morpho",
+        "address": "0x2345678901234567890123456789012345678901",
+        "targetWeightBps": 3000,
+        "apy": 11.2,
+        "whitelisted": true
+      },
+      {
+        "id": "univ3-lp",
+        "name": "Uniswap V3 Concentrated LP",
+        "protocol": "Uniswap",
+        "address": "0x3456789012345678901234567890123456789012",
+        "targetWeightBps": 2000,
+        "apy": 14.8,
+        "whitelisted": true
+      }
+    ]
+  },
+  "invariants": {
+    "maxPoolAllocationBps": 4000,
+    "minLiquidReserveBps": 1000,
+    "maxSlippageBps": 50,
+    "circuitBreakerDrawdownBps": 500
+  }
+}
